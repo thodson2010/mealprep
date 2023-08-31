@@ -1,0 +1,77 @@
+egg:
+  calories:
+    60
+  units:
+    each
+
+bread:
+  calories:
+    40
+  units:
+    slice
+
+peanut butter:
+  calories:
+    94
+  units:
+    TBS
+
+jelly:
+  calories:
+    50
+  units:
+    TBS
+
+rice:
+  calories:
+    450
+  units:
+    cup
+
+beans:
+  calories:
+    180
+  units:
+    cup
+
+butter:
+  calories:
+    102
+  units:
+    TBS
+
+onion:
+  calories:
+    44
+  units:
+    each
+
+carrot:
+  calories:
+    25
+  units:
+    each
+
+garlic:
+  calories:
+    4.5
+  units:
+    cloves
+
+green onion:
+  calories:
+    5
+  units:
+    each
+
+soy sauce:
+  calories:
+    9
+  units:
+    TBS
+
+sesame oil:
+  calories:
+    120
+  units:
+    TBS
