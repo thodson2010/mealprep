@@ -29,8 +29,7 @@ class MealPlanner(object):
         self.create_window()
         # Create the shopping list based on the prompts
         self.get_ingredients()
-
-        self.calculate_calories()
+        # Produce the shopping list
         self.print_shopping_list()
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -103,10 +102,6 @@ class MealPlanner(object):
                         self.grocery_list[_ingredient] = {}
                         self.grocery_list[_ingredient][qty] = _qty
                         self.grocery_list[_ingredient][units] = _units
-
-    def calculate_calories(self):
-        pass
-
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     def print_shopping_list(self):
